@@ -1,97 +1,93 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  height: 100vh;
-  display: grid;
-  place-items: center;
-  background-color: #000000;
-}
-#box {
-  position: relative;
-  height: 50px;
-  width: 60px;
-}
-#box span {
-  display: block;
-  opacity: 1;
-  position: absolute;
-  border-radius: 20px;
-  background: cyan;
-  height: 10px;
-  width: 100%;
-  transition: 0.25s ease-in-out;
-}
-#box span:nth-child(1) {
-  top: 0;
-  left: 0;
-}
-#box span:nth-child(2) {
-  top: 20px;
-  left: 0;
-}
-#box span:nth-child(3) {
-  top: 40px;
-  left: 0;
-}
-#box:hover span:nth-child(1) {
-  top: 20px;
-  transform: rotate(45deg);
-}
-#box:hover span:nth-child(2) {
-  opacity: 0;
-}
-#box:hover span:nth-child(3) {
-  top: 20px;
-  transform: rotate(-45deg);
-}
 
-//this is second icon
-#box2 {
-  position: relative;
-  height: 50px;
-  width: 60px;
-}
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        background-color: #000000;
+      }
+      #box {
+        position: relative;
+        height: 50px;
+        width: 60px;
+      }
+      #box span {
+        display: block;
+        opacity: 1;
+        position: absolute;
+        border-radius: 20px;
+        background: cyan;
+        height: 10px;
+        width: 100%;
+        transition: 0.25s ease-in-out;
+      }
+      #box span:nth-child(1) {
+        top: 0;
+        left: 0;
+      }
+      #box span:nth-child(2) {
+        top: 20px;
+        left: 0;
+      }
+      #box span:nth-child(3) {
+        top: 40px;
+        left: 0;
+      }
+      #box:hover span:nth-child(1) {
+        top: 20px;
+        transform: rotate(45deg);
+      }
+      #box:hover span:nth-child(2) {
+        opacity: 0;
+      }
+      #box:hover span:nth-child(3) {
+        top: 20px;
+        transform: rotate(-45deg);
+      }
+      #box2 {
+        position: relative;
+        height: 50px;
+        width: 60px;
+      }
 
-#box2 span {
-  display: block;
-  opacity: 1;
-  position: absolute;
-  border-radius: 20px;
-  background: cyan;
-  height: 10px;
-  width: 100%;
-  transition: 0.25s ease-in-out;
-}
-#box2 span:nth-child(1) {
-  top: 0;
-  left: 0;
-}
-#box2 span:nth-child(2) {
-  top: 20px;
-  left: 0;
-}
-#box2 span:nth-child(3) {
-  top: 40px;
-  left: 0;
-}
-#box2:hover span:nth-child(1) {
-  top: 20px;
-  transform: rotate(135deg);
-}
+      #box2 span {
+        display: block;
+        opacity: 1;
+        position: absolute;
+        border-radius: 20px;
+        background: cyan;
+        height: 10px;
+        width: 100%;
+        transition: 0.25s ease-in-out;
+      }
+      #box2 span:nth-child(1) {
+        top: 0;
+        left: 0;
+      }
+      #box2 span:nth-child(2) {
+        top: 20px;
+        left: 0;
+      }
+      #box2 span:nth-child(3) {
+        top: 40px;
+        left: 0;
+      }
+      #box2:hover span:nth-child(1) {
+        top: 20px;
+        transform: rotate(135deg);
+      }
 
-#box2:hover span:nth-child(2) {
-  opacity: 0;
-  left: -60px;
-}
-#box2:hover span:nth-child(3) {
-  top: 20px;
-  transform: rotate(-135deg);
-}
-
-
-//this is icon  3
+      #box2:hover span:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+      }
+      #box2:hover span:nth-child(3) {
+        top: 20px;
+        transform: rotate(-135deg);
+      }
 
       #box3 {
         position: relative;
@@ -169,8 +165,6 @@ body {
       }
 
 
-//this is icon -4
-
       #box4 {
         position: relative;
         height: 50px;
@@ -211,3 +205,4 @@ body {
       #box4:hover span:nth-child(3) {
         transform: rotate(-45deg);
       }
+   
